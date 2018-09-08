@@ -1,0 +1,61 @@
+
+
+<!--1. (cmmd, shift + 7), este s un comentario html sobre como abrir archivo -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<!-- html no es lenguaje de programacion, JS sì lo es. como lenguaje de programaciòn tiene:
+1) sentencias/declaraciones/expresiones, 2) variables y 3) funciones -->
+
+<script>
+
+
+// las variables deben tener un nombre que abstraiga el contenido.
+var naranjas ="oranges";
+var pi = 3.1416;
+var buenaVibra = true;
+var edad = 51;
+
+// funciones:
+
+function saludar() {  //las funciones se definen. i.e., màquina de sellos (no necesita una entrada de datos.
+//el proceso es estampar el papel y dejarte la impresion.
+    console.log("hola");
+}
+
+function tortillar(masa) {  //  (nombre) = es un argumento de la fnucion agradecer. Los argumentos de las funciones se pueden usar
+    //como variables dentro de esa funciòn, sòlamente). Esto sì es como una màquina de tortillas -- necesita insumos. El (nombre) es como 
+    // el cono por donde van a entrar las materias primas.
+
+    console.log("Ten una tortilla de " + masa);  // proceso de tomar masa, aplanar y sacar tortilla.
+}
+
+tortillar("maiz"); //esto es adicionar un insumo especìfico.
+
+
+//otro ejemplo
+
+function multiplier(factor) {
+    
+    for (var i = 1; i < 10; i++) {
+        console.log(i);
+
+        console.log(factor * i);
+    }
+}
+
+multiplier(5);
+
+
+</script>
+    
+</body>
+</html>
